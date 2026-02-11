@@ -12,9 +12,10 @@ The processed data can be found under the folder "Data", which are the input fil
 
 ## Code
 
-There are five R scripts in this repository:
+There are six R scripts in this repository:
 
 - `hsc.R`
+- `adjust_spec.R`
 - `gapit_indices.R`
 - `gapit_sw.R`
 - `gapit_hsc.R`
