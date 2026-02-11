@@ -1,6 +1,6 @@
-# Association study of genetic variation and spectroscopic imaging variants
+# Genome-wide associations of leaf spectral variation in MAGIC lines of Nicotiana attenuata
 
-This repository contains the code and data for the publication "Association study of genetic variation and spectroscopic imaging variants". 
+This repository contains the code and data for the publication "Genome-wide associations of leaf spectral variation in MAGIC lines of Nicotiana attenuata". 
 
 ## Data
 
@@ -10,20 +10,26 @@ at Zenodo https://zenodo.org/records/10700859
 
 The processed data can be found under the folder "Data", which are the input files for the downstream analyses.
 
+Place all downloaded datasets and GAPIT-generated Manhattan/QQ plots into the data/ folder before running the scripts.
+
 ## Code
 
 There are six R scripts in this repository:
 
+- `Spectra_corr.R`
 - `hsc.R`
-- `adjust_spec.R`
 - `gapit_indices.R`
 - `gapit_sw.R`
 - `gapit_hsc.R`
-- `plots.R`
+- `GWAS_plots.R`
 
 ## Dependencies
 
-The results and figures were generated with R (version 4.3.0 (2023-04-21)) and the following R packages:
+The results and figures were generated with R (version 4.3.0) and the following R packages:
 
-- spectrolab (version 0.0.10)
-- tidyverse (version 1.3.2)
+- tidyverse
+- spectrolab
+- cowplot
+- magick
+- data.table
+- RColorBrewer
